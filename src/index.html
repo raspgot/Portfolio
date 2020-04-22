@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <!-- META -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Gauthier WITKOWSKI, développeur web PHP - Développement sur mesure, création ou refonte de site, technologies open-source, responsive design">
+    <meta name="author" content="Gauthier WITKOWSKI">
+
+    <link rel="canonical" href="https://raspgot.fr">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon.png">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <title>Gauthier WITKOWSKI - Développeur Web</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600">
+    <link rel="stylesheet" href="raspgot.min.css">
+
+    <!-- OPENGRAPH -->
+    <meta property="og:url" content="https://raspgot.fr">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Gauthier WITKOWSKI - Développeur Web">
+    <meta property="og:description" content="Gauthier WITKOWSKI, développeur web PHP - Développement sur mesure, création ou refonte de site, technologies open-source, responsive design">
+    <meta property="og:image" content="https://raspgot.fr/img/og.png">
+    <meta property="og:site_name" content="Raspgot">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@smdouille">
+    <meta name="twitter:creator" content="@smdouille">
+    <meta name="twitter:url" content="https://raspgot.fr">
+    <meta name="twitter:title" content="Gauthier WITKOWSKI - Développeur Web">
+    <meta name="twitter:description" content="Gauthier WITKOWSKI, développeur web PHP - Développement sur mesure, création ou refonte de site, technologies open-source, responsive design">
+    <meta name="twitter:image" content="https://raspgot.fr/img/og.png">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112483745-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-112483745-2');
+    </script>
+</head>
+
+<body class="landing-page">
+    <nav class="navbar navbar-expand-lg navbar-transparent navbar-light headroom">
+        <div class="container">
+            <a class="navbar-brand mr-lg-5" href="./">
+                <img src="img/raspgot-white.png" alt="logo blanc">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global"
+                aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbar_global">
+                <div class="navbar-collapse-header">
+                    <div class="row">
+                        <div class="col-6 collapse-brand">
+                            <a href="./">
+                                <img src="img/raspgot-blue.png" alt="logo bleu">
+                            </a>
+                        </div>
+                        <div class="col-6 collapse-close">
+                            <button type="button" class="navbar-toggler" data-toggle="collapse"
+                                data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span></span>
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link" data-toggle="dropdown" role="button">
+                            <i class="ni ni-ui-04 d-lg-none"></i>
+                            <span class="nav-link-inner--text">Components</span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-xl">
+                            <div class="dropdown-menu-inner">
+                                <a href="https://dev.raspgot.fr/monitoring" class="media d-flex align-items-center">
+                                    <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
+                                        <i class="ni ni-sound-wave"></i>
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <p class="heading text-primary mb-md-1">eZ Server Monitor</p>
+                                        <p class="description d-none d-md-inline-block mb-0">Monitoring de mon serveur
+                                        </p>
+                                    </div>
+                                </a>
+                                <a href="https://h2-phpmyadmin.infomaniak.com" class="media d-flex align-items-center">
+                                    <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
+                                        <i class="ni ni-money-coins"></i>
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <p class="heading text-primary mb-md-1">phpMyAdmin</p>
+                                        <p class="description d-none d-md-inline-block mb-0">Gestion de base de données
+                                            MySQL</p>
+                                    </div>
+                                </a>
+                                <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=409110307"
+                                    class="media d-flex align-items-center">
+                                    <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                                        <i class="ni ni-world-2"></i>
+                                    </div>
+                                    <div class="media-body ml-3">
+                                        <p class="heading text-warning mb-md-1">MAP CSGO</p>
+                                        <p class="description d-none d-md-inline-block mb-0">Map CSGO que j'ai créé avec
+                                            le sdk</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-icon" href="https://github.com/raspgot" target="_blank"
+                            rel="noopener noreferrer">
+                            <i class="fa fa-github"></i>
+                            <span class="nav-link-inner--text d-lg-none">Github</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-icon" href="https://www.linkedin.com/in/gauthier-witkowski-64292ba8"
+                            target="_blank" rel="noopener noreferrer">
+                            <i class="fa fa-linkedin"></i>
+                            <span class="nav-link-inner--text d-lg-none">Linkedin</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-icon" href="https://www.facebook.com/gauthier.witkowski"
+                            target="_blank" rel="noopener noreferrer">
+                            <i class="fa fa-facebook"></i>
+                            <span class="nav-link-inner--text d-lg-none">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="nav-item ml-lg-4 mt-4 mt-sm-0">
+                        <a href="#contact" class="btn btn-sm btn-neutral btn-icon">
+                            <span class="btn-inner--icon">
+                                <i class="fa fa-pen pr-2"></i>
+                            </span>
+                            <span class="nav-link-inner--text">Me contacter</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        
+        <!-- Alerte status - contact form -->
+        <div role="alert" aria-live="assertive" aria-atomic="true" class="toast d-none fixed-top mt-sm-5 m-3" data-delay="9000">
+            <div class="toast-header">
+                <svg class=" rounded mr-2" width="20" height="20" xmlns="http://www.w3.org/2000/svg"
+                    preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+                    <rect fill="#C4CBF5" width="100%" height="100%" /></svg>
+                <strong class="mr-auto">Gauthier</strong>
+                <small>A l'instant</small>
+                <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="toast-body"></div>
+        </div>
+        
+        <div class="section section-hero section-shaped">
+            <div class="shape shape-style-3 shape-default">
+                <span class="span-150"></span>
+                <span class="span-50"></span>
+                <span class="span-50"></span>
+                <span class="span-75"></span>
+                <span class="span-100"></span>
+                <span class="span-75"></span>
+                <span class="span-50"></span>
+                <span class="span-100"></span>
+                <span class="span-50"></span>
+                <span class="span-100"></span>
+            </div>
+            <div class="page-header">
+                <div class="container shape-container d-flex align-items-center py-lg">
+                    <div class="col px-0">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-lg-8 text-center">
+                                <h1 class="text-white display-1">Gauthier WITKOWSKI</h1>
+                                <h2 class="display-4 font-weight-normal text-white">Développeur Web PHP</h2>
+                                <div class="btn-wrapper mt-4">
+                                    <a href="CV-2020.pdf" class="btn btn-primary btn-icon mt-3 mb-sm-0">
+                                        <span class="btn-inner--icon"><i
+                                                class="ni ni-cloud-download-95 align-middle fa-2x"></i></span>
+                                        <span class="btn-inner--text">Télécharger mon CV</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="separator separator-bottom separator-skew zindex-100">
+                <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Présentation -->
+        <section class="section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        <h3 class="heading-title text-primary">Présentation</h3>
+                        <p class="lead">
+                            Passionné depuis plus de 6 ans par l'informatique, je me suis orienté vers le
+                            développement web qui est un bon compromis entre créativité et code.
+                        </p>
+                        <p class="text-muted">
+                            Actuellement je suis développeur web en CDI dans un institut de marketing mais également
+                            auto-entrepreneur pour mener à bien votre projet !
+                        </p>
+                    </div>
+                    <div class="col">
+                        <img src="img/developpement.svg" class="img-fluid" alt="developpement">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="section pt-0">
+            <div class="container">
+                <h3 class="heading-title text-primary mb-4">Mes services</h3>
+                <div class="row row-grid">
+                    <div class="col-lg-4">
+                        <div class="card card-lift--hover shadow">
+                            <div class="card-body py-5">
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="icon icon-shape icon-shape-primary rounded-circle">
+                                        <i class="ni ni-laptop"></i>
+                                    </div>
+                                    <p class="text-primary text-uppercase h5 pl-3">Développement</p>
+                                </div>
+                                <p class="text-muted">Développement sur mesure, création ou refonte de
+                                    site, technologies open-source, responsive design.</p>
+                                <div class="mt-4">
+                                    <span class="badge badge-pill badge-primary">html</span>
+                                    <span class="badge badge-pill badge-primary">css</span>
+                                    <span class="badge badge-pill badge-primary">php</span>
+                                    <span class="badge badge-pill badge-primary">javascript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-lift--hover shadow">
+                            <div class="card-body py-5">
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="icon icon-shape icon-shape-success rounded-circle">
+                                        <i class="ni ni-cloud-upload-96"></i>
+                                    </div>
+                                    <p class="text-success text-uppercase h5 pl-3">Hébergement</p>
+                                </div>
+                                <p class="text-muted">Possibilité d'hébergement de votre site, gestion de
+                                    votre nom de domaine, emails pro, paramétrage de vos DNS.</p>
+                                <div class="mt-4">
+                                    <span class="badge badge-pill badge-success">mutualisé</span>
+                                    <span class="badge badge-pill badge-success">dédié</span>
+                                    <span class="badge badge-pill badge-success">vps</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card card-lift--hover shadow">
+                            <div class="card-body py-5">
+                                <div class="d-flex align-items-center mb-4">
+                                    <div class="icon icon-shape icon-shape-warning rounded-circle">
+                                        <i class="ni ni-atom"></i>
+                                    </div>
+                                    <p class="text-warning text-uppercase h5 pl-3">Gestion</p>
+                                </div>
+                                <p class="text-muted">Coordination des étapes de réalisation de l’analyse
+                                    des besoins à la mise en ligne. Choix de technologies adaptées.</p>
+                                <div class="mt-4">
+                                    <span class="badge badge-pill badge-warning">communication</span>
+                                    <span class="badge badge-pill badge-warning">seo</span>
+                                    <span class="badge badge-pill badge-warning">lancement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact form -->
+        <section class="section section-svg pt-0" id="contact">
+            <div class="container">
+                <div class="row row-grid justify-content-between align-items-center">
+                    <div class="col-sm-8 mx-auto">
+                        <div class="card card-contact rounded mt-5">
+                            <div class="card-body p-lg-5">
+                                <h3 class="heading-title text-primary">N'hésitez pas à me contacter !</h3>
+                                <p>Je vous répondrais rapidement 😉</p>
+                                <form action="mail.php">
+                                    <!-- Token value | recaptcha -->
+                                    <input name="recaptcha-token" type="hidden">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input class="form-control form-control-alternative"
+                                                    placeholder="Prénom" type="text" id="firstname" name="firstname">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <input class="form-control form-control-alternative" placeholder="Nom"
+                                                    type="text" id="lastname" name="lastname">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group" id="form-email">
+                                        <input class="form-control form-control-alternative" placeholder="Email"
+                                            type="email" id="email" name="email">
+                                    </div>
+                                    <div class="form-group mb-3" id="form-message">
+                                        <textarea class="form-control form-control-alternative inputBox" id="message"
+                                            name="message" rows="6" cols="80"
+                                            placeholder="Écrivez votre message..."></textarea>
+                                    </div>
+                                    <div class="float-right">
+                                        <button class="btn btn-default" id="contact-btn" type="submit">
+                                            <span class="spinner-border spinner-border-sm mr-2 d-none" role="status"
+                                                aria-hidden="true"></span>
+                                            <span class="sr-only">Loading...</span>
+                                            ENVOYER
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technos -->
+        <section class="section pb-0">
+            <div class="container-fluid">
+                <h3 class="heading-title text-primary text-center mb-3">Mes technos & projets</h3>
+                <div class="row justify-content-center">
+                    <div class="col-xl-9 d-flex flex-wrap justify-content-center">
+                        <div class="m-2">
+                            <div class="media shadow rounded align-items-center px-3 px-md-4 py-2 py-md-3 bg-white">
+                                <img src="img/technos/symfony.svg" alt="symfony" class="icon icon-sm mr-3">
+                                <h4 class="mb-0">Symfony</h4>
+                            </div>
+                        </div>
+                        <div class="m-2">
+                            <div class="media shadow rounded align-items-center px-3 px-md-4 py-2 py-md-3 bg-white">
+                                <img src="img/technos/git.svg" alt="git" class="icon icon-sm mr-3">
+                                <h4 class="mb-0">Git</h4>
+                            </div>
+                        </div>
+                        <div class="m-2">
+                            <div class="media shadow rounded align-items-center px-3 px-md-4 py-2 py-md-3 bg-white">
+                                <img src="img/technos/gulp.svg" alt="gulp" class="icon icon-sm mr-3">
+                                <h4 class="mb-0">Gulp</h4>
+                            </div>
+                        </div>
+                        <div class="m-2">
+                            <div class="media shadow rounded align-items-center px-3 px-md-4 py-2 py-md-3 bg-white">
+                                <img src="img/technos/jquery.svg" alt="jquery" class="icon icon-sm mr-3">
+                                <h4 class="mb-0">Jquery</h4>
+                            </div>
+                        </div>
+                        <div class="m-2">
+                            <div class="media shadow rounded align-items-center px-3 px-md-4 py-2 py-md-3 bg-white">
+                                <img src="img/technos/mysql.svg" alt="mysql" class="icon icon-sm mr-3">
+                                <h4 class="mb-0">MySql</h4>
+                            </div>
+                        </div>
+                        <div class="m-2">
+                            <div class="media shadow rounded align-items-center px-3 px-md-4 py-2 py-md-3 bg-white">
+                                <img src="img/technos/bootstrap.svg" alt="bootstrap" class="icon icon-sm mr-3">
+                                <h4 class="mb-0">Bootstrap</h4>
+                            </div>
+                        </div>
+                        <div class="m-2">
+                            <div class="media shadow rounded align-items-center px-3 px-md-4 py-2 py-md-3 bg-white">
+                                <img src="img/technos/prestashop.svg" alt="prestashop" class="icon icon-sm mr-3">
+                                <h4 class="mb-0">Prestashop</h4>
+                            </div>
+                        </div>
+                        <div class="m-2">
+                            <div class="media shadow rounded align-items-center px-3 px-md-4 py-2 py-md-3 bg-white">
+                                <img src="img/technos/grav.svg" alt="grav" class="icon icon-sm mr-3">
+                                <h4 class="mb-0">GRAV</h4>
+                            </div>
+                        </div>
+                        <div class="m-2">
+                            <div class="media shadow rounded align-items-center px-3 px-md-4 py-2 py-md-3 bg-white">
+                                <img src="img/technos/wordpress.svg" alt="wordpress" class="icon icon-sm mr-3">
+                                <h4 class="mb-0">Wordpress</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+               
+            <div class="container"> 
+                <div class="row mt-5">
+                    <div class="col-md-6 mb-5 mb-md-0">
+                        <div class="card card-lift--hover shadow border-0">
+                            <a href="https://association-laika.fr/" target="_blank" rel="noopener noreferrer"
+                                title="Laika">
+                                <img src="img/mockup/laika.png" class="card-img" alt="laika">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-5 mb-lg-0">
+                        <div class="card card-lift--hover shadow border-0">
+                            <a href="https://delattrechristel.fr/" target="_blank" rel="noopener noreferrer"
+                                title="Christel Delattre">
+                                <img src="img/mockup/christel-delattre.png" class="card-img" alt="christeldelattre">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-lg-4">
+                    <div class="col-md-6 mb-5 mb-md-0">
+                        <div class="card card-lift--hover shadow border-0">
+                            <a href="https://clemencedecolo.fr/" target="_blank" rel="noopener noreferrer" title="CV">
+                                <img src="img/mockup/cv.png" class="card-img" alt="cv">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-5 mb-lg-0">
+                        <div class="card card-lift--hover shadow border-0">
+                            <a href="https://paulinedecolo.fr/" target="_blank" rel="noopener noreferrer"
+                                title="Pauline de colo">
+                                <img src="img/mockup/paulinedecolo.png" class="card-img" alt="paulinedecolo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-grid align-items-center mt-4 mb-md">
+                    <div class="col-lg-12 text-center">
+                        <a href="https://dev.raspgot.fr" class="btn btn-outline-primary btn-lg">
+                            Et plus encore
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projets -->
+        <footer class="footer has-cards">
+            <div class="container">
+                <div class="row row-grid align-items-center mb-5">
+                    <div class="col-lg-6">
+                        <p class="h3 text-primary font-weight-light mb-2">Merci et à bientôt !</p>
+                        <p class="h5 mb-0 font-weight-light">Restons en contact ces plateformes 😉</p>
+                    </div>
+                    <div class="col-lg-6 text-lg-center btn-wrapper">
+                        <a href="https://github.com/raspgot" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-icon-only btn-github rounded-circle">
+                            <span class="btn-inner--icon"><i class="fa fa-github"></i></span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/gauthier-witkowski-64292ba8/" target="_blank"
+                            rel="noopener noreferrer" class="btn btn-icon-only btn-linkedin rounded-circle">
+                            <span class="btn-inner--icon"><i class="fa fa-linkedin"></i></span>
+                        </a>
+                        <a href="https://www.facebook.com/gauthier.witkowski" target="_blank" rel="noopener noreferrer"
+                            class="btn-icon-only rounded-circle btn btn-facebook" style="padding-left:2px">
+                            <span class="btn-inner--icon"><i class="fab fa-facebook"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="row align-items-center justify-content-md-between">
+                    <div class="col-md-12 copyright">
+                        <div class="text-muted">
+                            &copy; 2020 Raspgot
+                            <span class="float-right">SIRET : 849 799 911 00011</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JS -->
+    <script src="raspgot.min.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render="></script>
+</body>
+
+</html>

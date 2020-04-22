@@ -1,0 +1,89 @@
+.toast.showing {
+    opacity: 1
+}
+
+.toast.show {
+    display: block;
+    opacity: 1
+}
+
+.collapse.show {
+    padding: 1.5rem;
+    border-radius: .25rem;
+    background: #FFF;
+    box-shadow: 0 50px 100px rgba(50, 50, 93, 0.1), 0 15px 35px rgba(50, 50, 93, 0.15), 0 5px 15px rgba(0, 0, 0, 0.1);
+    animation: show-navbar-collapse .2s ease forwards;
+}
+
+.invalid-feedback {
+    display: none;
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #fb6340;
+}
+
+.has-success,
+.has-danger {
+    position: relative;
+}
+
+.has-success:after,
+.has-danger:after {
+    width: 19px;
+    height: 19px;
+    line-height: 19px;
+    text-align: center;
+    font-family: 'NucleoIcons';
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 2px;
+    transform: translateY(50%);
+    border-radius: 50%;
+    font-size: 9px;
+    opacity: 1;
+}
+
+.has-success .form-control-alternative.is-valid:focus,
+.has-success .form-control-alternative.is-invalid:focus,
+.has-danger .form-control-alternative.is-valid:focus,
+.has-danger .form-control-alternative.is-invalid:focus {
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
+
+.has-success:after {
+    content: "\ea26";
+    color: daken(#2dce89, 18%);
+    background-color: #69deac;
+}
+
+.has-success .form-control {
+    background-color: #fff;
+}
+
+.has-success .form-control:focus {
+    border-color: rgba(50, 151, 211, 0.25);
+}
+
+.has-success .form-control::placeholder {
+    color: #2dce89;
+}
+
+.has-danger:after {
+    content: "\ea53";
+    color: daken(#fb6340, 18%);
+    background-color: #fda08b;
+}
+
+.has-danger .form-control {
+    background-color: #fff;
+}
+
+.has-danger .form-control:focus {
+    border-color: rgba(50, 151, 211, 0.25);
+}
+
+.has-danger .form-control::placeholder {
+    color: #fb6340;
+}

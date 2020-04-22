@@ -1,0 +1,14 @@
+{
+    "name": "raspgot/portfolio",
+    "description": "portfolio perso",
+    "authors": [
+        {
+            "name": "gauthier witkowski",
+            "email": "contact@raspgot.fr"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.1",
+        "google/recaptcha": "1.2"
+    }
+}
